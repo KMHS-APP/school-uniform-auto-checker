@@ -6,6 +6,6 @@ WORKDIR /app
 
 RUN pip install -r requirements.txt
 
-ENV TZ Asia/Seoul
+ENV TZ=Asia/Seoul
 
 ENTRYPOINT ["python", "app.py"]
