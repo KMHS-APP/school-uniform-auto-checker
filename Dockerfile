@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 
 ENV TZ=Asia/Seoul
 
-ENTRYPOINT ["python", "app.py"]
+ENTRYPOINT ["python", "main.py"]
